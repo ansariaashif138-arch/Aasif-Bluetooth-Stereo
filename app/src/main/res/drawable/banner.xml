@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TV banner 320x180 placeholder: dark bg + accent note. Replace with a PNG banner for production polish. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp" android:height="180dp"
+    android:viewportWidth="320" android:viewportHeight="180">
+    <path android:fillColor="#121212" android:pathData="M0,0h320v180h-320z" />
+    <path android:fillColor="#1DB954"
+        android:pathData="M160,42 m-26,0 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0 M182,28 h10 v44 h-10 z" />
+</vector>
