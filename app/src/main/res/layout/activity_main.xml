@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="36dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/text_primary"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Phone ki audio, TV ke speaker par — Bluetooth ya WiFi se"
+            android:textColor="@color/accent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@color/card"
+            android:padding="16dp"
+            android:text="Taiyaar hai — Bluetooth ya WiFi mode chuno"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/supportText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/card"
+            android:padding="16dp"
+            android:text="Support check ho raha hai..."
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="BLUETOOTH MODE"
+            android:textColor="@color/text_primary"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDiscoverable"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="1. TV ko Discoverable karo" />
+
+            <Button
+                android:id="@+id/btnOpenStereo"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="2. TV Bluetooth Stereo kholo" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="WIFI MODE (har Android TV ke liye)"
+            android:textColor="@color/text_primary"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnWifiToggle"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:text="WiFi Mode: ON karo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="PLAYBACK CONTROL (Bluetooth phone ke liye)"
+            android:textColor="@color/text_primary"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPrev"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="⏮ Pichla" />
+
+            <Button
+                android:id="@+id/btnPlayPause"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:text="⏯ Play / Pause" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="⏭ Agla" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/devicesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@color/card"
+            android:padding="16dp"
+            android:text="Paired devices: ..."
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Powered by Aasif"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>
